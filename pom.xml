@@ -1,18 +1,17 @@
-<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
   <modelVersion>4.0.0</modelVersion>
 
   <parent>
     <groupId>org.jenkins-ci.plugins</groupId>
     <artifactId>plugin</artifactId>
     <version>3.9</version>
-    <relativePath/>
+    <relativePath />
   </parent>
 
   <artifactId>analysis-model-api</artifactId>
   <packaging>hpi</packaging>
   <name>Analysis Model API Plug-in</name>
-  <version>1.0.0-RC6-SNAPSHOT</version>
+  <version>1.0.0-RC6</version>
   <description>Jenkins API plug-in for the Static Analysis Model and Parsers.</description>
 
   <properties>
@@ -42,7 +41,7 @@
     <connection>scm:git:git://github.com/jenkinsci/${project.artifactId}-plugin.git</connection>
     <developerConnection>scm:git:git@github.com:jenkinsci/${project.artifactId}-plugin.git</developerConnection>
     <url>https://github.com/jenkinsci/${project.artifactId}-plugin</url>
-    <tag>HEAD</tag>
+    <tag>analysis-model-api-1.0.0-RC6</tag>
   </scm>
 
   <repositories>
