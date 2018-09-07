@@ -11,7 +11,7 @@
   <artifactId>analysis-model-api</artifactId>
   <packaging>hpi</packaging>
   <name>Analysis Model API Plug-in</name>
-  <version>1.0.0-RC7-SNAPSHOT</version>
+  <version>1.0.0-beta1-SNAPSHOT</version>
   <description>Jenkins API plug-in for the Static Analysis Model and Parsers.</description>
 
   <properties>
