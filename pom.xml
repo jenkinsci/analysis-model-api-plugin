@@ -9,6 +9,7 @@
   </parent>
 
   <artifactId>analysis-model-api</artifactId>
+  <groupId>io.jenkins.plugins</groupId>
   <packaging>hpi</packaging>
   <name>Analysis Model API Plug-in</name>
   <version>1.0.0-beta16-SNAPSHOT</version>
