@@ -12,7 +12,7 @@
   <groupId>io.jenkins.plugins</groupId>
   <packaging>hpi</packaging>
   <name>Analysis Model API Plug-in</name>
-  <version>1.0.0-beta16-SNAPSHOT</version>
+  <version>1.0.0-beta16</version>
   <description>Jenkins API plug-in for the Static Analysis Model and Parsers.</description>
 
   <properties>
@@ -42,7 +42,7 @@
     <connection>scm:git:git://github.com/jenkinsci/${project.artifactId}-plugin.git</connection>
     <developerConnection>scm:git:git@github.com:jenkinsci/${project.artifactId}-plugin.git</developerConnection>
     <url>https://github.com/jenkinsci/${project.artifactId}-plugin</url>
-    <tag>HEAD</tag>
+    <tag>analysis-model-api-1.0.0-beta16</tag>
   </scm>
 
   <repositories>
