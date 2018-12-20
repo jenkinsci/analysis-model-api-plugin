@@ -1,4 +1,4 @@
-package io.jenkins.plugins.analysis;
+package io.jenkins.plugins.analysis.api;
 
 /**
  * Dummy class to make Jenkins HPI plug-in and InjectedTests happy.
