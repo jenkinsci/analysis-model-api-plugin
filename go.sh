@@ -5,7 +5,7 @@ if [[ -z "$JENKINS_HOME" ]]; then
     exit 1
 fi
 
-mvn clean install || { echo "Build failed"; exit 1; }
+mvn -o clean install || { echo "Build failed"; exit 1; }
 
 rm -rf $JENKINS_HOME/plugins/analysis-model-api*
 
