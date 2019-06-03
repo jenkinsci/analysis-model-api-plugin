@@ -19,7 +19,7 @@
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
     <java.level>8</java.level>
     <jenkins.version>2.121.1</jenkins.version>
-    <analysis-model.version>5.1.0</analysis-model.version>
+    <analysis-model.version>5.1.1</analysis-model.version>
   </properties>
 
   <licenses>
