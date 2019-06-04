@@ -29,6 +29,14 @@
     </license>
   </licenses>
 
+  <developers>
+    <developer>
+      <name>Ullrich Hafner</name>
+      <id>uhafner</id>
+      <email>ullrich.hafner@gmail.com</email>
+    </developer>
+  </developers>
+
   <dependencies>
     <dependency>
       <groupId>edu.hm.hafner</groupId>
