@@ -14,5 +14,3 @@ if [[ "$IS_RUNNING" != "" ]]; then
     echo "Restarting Jenkins..."
     docker-compose restart
 fi
-
-
