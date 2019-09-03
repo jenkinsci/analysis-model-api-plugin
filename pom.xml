@@ -12,14 +12,14 @@
   <groupId>io.jenkins.plugins</groupId>
   <packaging>hpi</packaging>
   <name>Analysis Model API Plug-in</name>
-  <version>5.3.1-SNAPSHOT</version>
+  <version>6.0.1-SNAPSHOT</version>
   <description>Jenkins API plug-in for the Static Analysis Model and Parsers.</description>
 
   <properties>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
     <java.level>8</java.level>
     <jenkins.version>2.138.4</jenkins.version>
-    <analysis-model.version>5.3.0</analysis-model.version>
+    <analysis-model.version>6.0.1</analysis-model.version>
   </properties>
 
   <licenses>
