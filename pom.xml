@@ -12,7 +12,7 @@
   <groupId>io.jenkins.plugins</groupId>
   <packaging>hpi</packaging>
   <name>Analysis Model API Plug-in</name>
-  <version>7.0.3-SNAPSHOT</version>
+  <version>8.0.0-beta1-SNAPSHOT</version>
   <description>Jenkins API plug-in for the Static Analysis Model and Parsers.</description>
   <url>https://github.com/jenkinsci/analysis-model</url>
 
@@ -20,7 +20,8 @@
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
     <java.level>8</java.level>
     <jenkins.version>2.138.4</jenkins.version>
-    <analysis-model.version>7.0.2</analysis-model.version>
+    <analysis-model.version>8.0.0-beta1</analysis-model.version>
+    <plugin-util-api.version>0.1.0-beta1</plugin-util-api.version>
   </properties>
 
   <licenses>
@@ -43,6 +44,17 @@
       <groupId>edu.hm.hafner</groupId>
       <artifactId>analysis-model</artifactId>
       <version>${analysis-model.version}</version>
+      <exclusions>
+        <exclusion>
+          <groupId>edu.hm.hafner</groupId>
+          <artifactId>codingstyle</artifactId>
+        </exclusion>
+      </exclusions>
+    </dependency>
+    <dependency>
+      <groupId>io.jenkins.plugins</groupId>
+      <artifactId>plugin-util-api</artifactId>
+      <version>${plugin-util-api.version}</version>
     </dependency>
   </dependencies>
 
