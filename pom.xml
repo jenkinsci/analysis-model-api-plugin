@@ -23,7 +23,7 @@
     <java.level>8</java.level>
     <jenkins.version>2.138.4</jenkins.version>
     <analysis-model.version>8.0.0-beta6-rc3299.52f8ad873d0d</analysis-model.version>
-    <plugin-util-api.version>0.1.0-beta6-rc73.2537a05a4a8e</plugin-util-api.version>
+    <plugin-util-api.version>0.1.0-beta6-rc74.807b71f3775a</plugin-util-api.version>
   </properties>
 
   <licenses>
