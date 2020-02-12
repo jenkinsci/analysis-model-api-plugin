@@ -22,7 +22,7 @@
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
     <java.level>8</java.level>
     <jenkins.version>2.138.4</jenkins.version>
-    <analysis-model.version>8.0.0-beta9-rc3357.fd378b8f48a4</analysis-model.version>
+    <analysis-model.version>8.0.0-beta9-rc3358.29925b7489a0</analysis-model.version>
     <plugin-util-api.version>0.1.0-beta7</plugin-util-api.version>
   </properties>
 
