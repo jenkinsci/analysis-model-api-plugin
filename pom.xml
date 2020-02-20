@@ -17,12 +17,12 @@
   <url>https://github.com/jenkinsci/analysis-model</url>
 
   <properties>
-    <revision>8.0.0-beta10</revision>
+    <revision>8.0.0-beta11</revision>
     <changelist>-SNAPSHOT</changelist>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
     <java.level>8</java.level>
     <jenkins.version>2.138.4</jenkins.version>
-    <analysis-model.version>8.0.0-beta9</analysis-model.version>
+    <analysis-model.version>8.0.0-beta11</analysis-model.version>
     <plugin-util-api.version>0.1.0-beta9</plugin-util-api.version>
   </properties>
 
