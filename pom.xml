@@ -22,8 +22,8 @@
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
     <java.level>8</java.level>
     <jenkins.version>2.138.4</jenkins.version>
-    <analysis-model.version>8.0.0</analysis-model.version>
-    <plugin-util-api.version>1.0.1</plugin-util-api.version>
+    <analysis-model.version>8.0.1</analysis-model.version>
+    <plugin-util-api.version>1.0.2</plugin-util-api.version>
   </properties>
 
   <licenses>
