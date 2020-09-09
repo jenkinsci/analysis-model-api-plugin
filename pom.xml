@@ -4,7 +4,7 @@
   <parent>
     <groupId>org.jvnet.hudson.plugins</groupId>
     <artifactId>analysis-pom</artifactId>
-    <version>4.1.1</version>
+    <version>4.2.1</version>
     <relativePath />
   </parent>
 
@@ -17,10 +17,10 @@
   <url>https://github.com/jenkinsci/analysis-model</url>
 
   <properties>
-    <revision>8.3.2</revision>
+    <revision>9.0.0</revision>
     <changelist>-SNAPSHOT</changelist>
-    <analysis-model.version>8.3.1</analysis-model.version>
-    <plugin-util-api.version>1.2.2</plugin-util-api.version>
+    <analysis-model.version>9.0.0</analysis-model.version>
+    <plugin-util-api.version>1.2.5</plugin-util-api.version>
   </properties>
 
   <licenses>
