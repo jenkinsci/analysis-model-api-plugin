@@ -17,9 +17,9 @@
   <url>https://github.com/jenkinsci/analysis-model</url>
 
   <properties>
-    <revision>9.2.0</revision>
+    <revision>9.2.1</revision>
     <changelist>-SNAPSHOT</changelist>
-    <analysis-model.version>9.1.0</analysis-model.version>
+    <analysis-model.version>9.2.1</analysis-model.version>
     <plugin-util-api.version>1.4.0</plugin-util-api.version>
   </properties>
 
@@ -47,6 +47,10 @@
         <exclusion>
           <groupId>edu.hm.hafner</groupId>
           <artifactId>codingstyle</artifactId>
+        </exclusion>
+        <exclusion>
+          <groupId>com.github.spotbugs</groupId>
+          <artifactId>spotbugs-annotations</artifactId>
         </exclusion>
       </exclusions>
     </dependency>
