@@ -17,9 +17,9 @@
   <url>https://github.com/jenkinsci/analysis-model</url>
 
   <properties>
-    <revision>9.5.0</revision>
+    <revision>9.6.0</revision>
     <changelist>-SNAPSHOT</changelist>
-    <analysis-model.version>9.5.0-rc3841.4bd1741b5875</analysis-model.version>
+    <analysis-model.version>9.6.0-rc3852.afbd64d4bd5d</analysis-model.version>
     <plugin-util-api.version>1.4.0</plugin-util-api.version>
   </properties>
 
