@@ -19,8 +19,8 @@
   <properties>
     <revision>9.9.0</revision>
     <changelist>-SNAPSHOT</changelist>
-    <analysis-model.version>9.8.0</analysis-model.version>
-    <plugin-util-api.version>2.0.0-rc279.38d141835605</plugin-util-api.version>
+    <analysis-model.version>9.8.1</analysis-model.version>
+    <plugin-util-api.version>2.0.0</plugin-util-api.version>
   </properties>
 
   <licenses>
