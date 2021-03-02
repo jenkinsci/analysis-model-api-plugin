@@ -13,7 +13,7 @@ cp -fv target/analysis-model-api.hpi $JENKINS_HOME/plugins/analysis-model-api.jp
 
 CURRENT_UID="$(id -u):$(id -g)"
 export CURRENT_UID
-IS_RUNNING=$(docker-compose ps -q jenkins-master)
+IS_RUNNING=$(docker-compose ps -q jenkins-controller)
 if [[ "$IS_RUNNING" != "" ]]; then
     docker-compose restart
     echo "Restarting Jenkins (docker compose with user ID ${CURRENT_UID}) ..."
