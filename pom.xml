@@ -20,7 +20,7 @@
     <revision>10.0.0</revision>
     <changelist>-SNAPSHOT</changelist>
     <analysis-model.version>10.0.0-rc4069.87a02486228b</analysis-model.version>
-    <plugin-util-api.version>2.0.0</plugin-util-api.version>
+    <plugin-util-api.version>2.1.0</plugin-util-api.version>
   </properties>
 
   <licenses>
