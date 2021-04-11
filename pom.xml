@@ -19,7 +19,7 @@
   <properties>
     <revision>10.0.0</revision>
     <changelist>-SNAPSHOT</changelist>
-    <analysis-model.version>10.0.0-rc4104.ed2e49c02339</analysis-model.version>
+    <analysis-model.version>10.0.0</analysis-model.version>
     <plugin-util-api.version>2.1.0</plugin-util-api.version>
   </properties>
 
@@ -37,6 +37,16 @@
       <email>ullrich.hafner@gmail.com</email>
     </developer>
   </developers>
+
+  <dependencyManagement>
+    <dependencies>
+      <dependency>
+        <groupId>org.objenesis</groupId>
+        <artifactId>objenesis</artifactId>
+        <version>3.2</version>
+      </dependency>
+    </dependencies>
+  </dependencyManagement>
 
   <dependencies>
     <dependency>
@@ -106,24 +116,5 @@
     </pluginRepository>
   </pluginRepositories>
 
-  <dependencyManagement>
-    <dependencies>
-      <dependency>
-        <groupId>jaxen</groupId>
-        <artifactId>jaxen</artifactId>
-        <version>1.2.0-atlassian-2</version>
-      </dependency>
-      <dependency>
-        <groupId>org.slf4j</groupId>
-        <artifactId>slf4j-api</artifactId>
-        <version>1.7.30</version>
-      </dependency>
-      <dependency>
-        <groupId>commons-io</groupId>
-        <artifactId>commons-io</artifactId>
-        <version>2.8.0</version>
-      </dependency>
-    </dependencies>
-  </dependencyManagement>
 </project>
 
