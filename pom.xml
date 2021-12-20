@@ -72,6 +72,10 @@
           <artifactId>*</artifactId>
           <groupId>org.ow2.asm</groupId>
         </exclusion>
+        <exclusion>
+          <groupId>com.j2html</groupId>
+          <artifactId>j2html</artifactId>
+        </exclusion>
       </exclusions>
     </dependency>
     <dependency>
