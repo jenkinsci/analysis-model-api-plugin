@@ -19,6 +19,7 @@
   <properties>
     <revision>10.9.0</revision>
     <changelist>-SNAPSHOT</changelist>
+    <analysis-model.version>10.9.0</analysis-model.version>
     <plugin-util-api.version>2.8.0</plugin-util-api.version>
   </properties>
 
@@ -41,7 +42,7 @@
     <dependency>
       <groupId>edu.hm.hafner</groupId>
       <artifactId>analysis-model</artifactId>
-      <version>${revision}${changelist}</version>
+      <version>${analysis-model.version}</version>
       <exclusions>
         <exclusion>
           <groupId>edu.hm.hafner</groupId>
