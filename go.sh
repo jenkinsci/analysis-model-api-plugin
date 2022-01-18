@@ -4,7 +4,14 @@ set -e
 
 JENKINS_HOME=../docker/volumes/jenkins-home
 
-mvn clean install || { echo "Build failed"; exit 1; }
+if [ $# -eq 1 ]
+  then
+    echo "Using analysis-model version $1"
+    mvn clean install -Danalysis-model.version=$1 || { echo "Build failed"; exit 1; }
+  else
+    echo "Using built-in analysis-model version from pom.xml"
+    mvn clean install || { echo "Build failed"; exit 1; }
+fi
 
 echo "Installing plugin in $JENKINS_HOME"
 
