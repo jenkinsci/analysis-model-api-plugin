@@ -17,9 +17,9 @@
   <url>https://github.com/jenkinsci/analysis-model</url>
 
   <properties>
-    <revision>10.10.0</revision>
+    <revision>10.9.4</revision>
     <changelist>-SNAPSHOT</changelist>
-    <analysis-model.version>10.9.3</analysis-model.version>
+    <analysis-model.version>10.9.4</analysis-model.version>
     <plugin-util-api.version>2.15.0</plugin-util-api.version>
   </properties>
 
@@ -81,6 +81,10 @@
           <artifactId>j2html</artifactId>
         </exclusion>
         <exclusion>
+          <groupId>one.util</groupId>
+          <artifactId>streamex</artifactId>
+        </exclusion>
+        <exclusion>
           <groupId>javax.annotation</groupId>
           <artifactId>javax.annotation-api</artifactId>
         </exclusion>
@@ -101,7 +105,7 @@
     <connection>scm:git:git://github.com/jenkinsci/${project.artifactId}-plugin.git</connection>
     <developerConnection>scm:git:git@github.com:jenkinsci/${project.artifactId}-plugin.git</developerConnection>
     <url>https://github.com/jenkinsci/${project.artifactId}-plugin</url>
-    <tag>v10.9.1</tag>
+    <tag>${scmTag}</tag>
   </scm>
 
   <repositories>
