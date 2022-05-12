@@ -4,7 +4,7 @@
   <parent>
     <groupId>org.jvnet.hudson.plugins</groupId>
     <artifactId>analysis-pom</artifactId>
-    <version>5.24.0</version>
+    <version>5.25.0</version>
     <relativePath />
   </parent>
 
@@ -20,7 +20,6 @@
     <revision>10.10.1</revision>
     <changelist>-SNAPSHOT</changelist>
     <analysis-model.version>10.10.1</analysis-model.version>
-    <plugin-util-api.version>2.16.0</plugin-util-api.version>
   </properties>
 
   <licenses>
@@ -37,16 +36,6 @@
       <email>ullrich.hafner@gmail.com</email>
     </developer>
   </developers>
-
-  <dependencyManagement>
-    <dependencies>
-      <dependency>
-        <groupId>net.bytebuddy</groupId>
-        <artifactId>byte-buddy</artifactId>
-        <version>1.12.10</version>
-      </dependency>
-    </dependencies>
-  </dependencyManagement>
 
   <dependencies>
     <dependency>
@@ -107,7 +96,6 @@
     <dependency>
       <groupId>io.jenkins.plugins</groupId>
       <artifactId>plugin-util-api</artifactId>
-      <version>${plugin-util-api.version}</version>
     </dependency>
   </dependencies>
 
