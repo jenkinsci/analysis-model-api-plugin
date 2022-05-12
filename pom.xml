@@ -97,6 +97,10 @@
       <groupId>io.jenkins.plugins</groupId>
       <artifactId>plugin-util-api</artifactId>
     </dependency>
+    <dependency>
+      <groupId>io.jenkins.plugins</groupId>
+      <artifactId>jaxb</artifactId>
+    </dependency>
   </dependencies>
 
   <scm>
@@ -125,4 +129,3 @@
   </pluginRepositories>
 
 </project>
-
