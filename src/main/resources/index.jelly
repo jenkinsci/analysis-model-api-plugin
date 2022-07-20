@@ -1,0 +1,5 @@
+<?jelly escape-by-default='true'?>
+
+<div>
+  A library wrapped into a Jenkins plugin to read static analysis reports into a Java object model.
+</div>
