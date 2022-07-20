@@ -19,7 +19,7 @@
   <properties>
     <revision>10.14.0</revision>
     <changelist>-SNAPSHOT</changelist>
-    <analysis-model.version>10.14.0-SNAPSHOT</analysis-model.version>
+    <analysis-model.version>10.14.0-rc4746.02007cc277a_d</analysis-model.version>
     <plugin-util-api.version>2.15.0</plugin-util-api.version>
   </properties>
 
