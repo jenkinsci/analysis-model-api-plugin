@@ -4,3 +4,4 @@ edu.hm.hafner.analysis.Issue
 edu.hm.hafner.analysis.DuplicationGroup
 edu.hm.hafner.analysis.LineRange
 edu.hm.hafner.analysis.LineRangeList
+edu.hm.hafner.analysis.RevApiInfoExtension
