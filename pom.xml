@@ -19,7 +19,7 @@
   <properties>
     <revision>10.14.0</revision>
     <changelist>-SNAPSHOT</changelist>
-    <analysis-model.version>10.14.0-rc4749.de972e84b_b_c3</analysis-model.version>
+    <analysis-model.version>10.14.0</analysis-model.version>
   </properties>
 
   <licenses>
