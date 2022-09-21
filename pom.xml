@@ -38,6 +38,14 @@
   </developers>
 
   <dependencies>
+    <!--
+      https://plugins.jenkins.io/apache-httpcomponents-client-4-api/#plugin-content-plugins-using-libraries-depending-on-httpclient
+      Recent versions of Saxon bring in httpcomponents (spotbugs -> saxon-he -> xmlresolver -> httpclient)
+    -->
+    <dependency>
+      <groupId>org.jenkins-ci.plugins</groupId>
+      <artifactId>apache-httpcomponents-client-4-api</artifactId>
+    </dependency>
     <dependency>
       <groupId>edu.hm.hafner</groupId>
       <artifactId>analysis-model</artifactId>
