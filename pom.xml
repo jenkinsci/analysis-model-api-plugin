@@ -19,7 +19,7 @@
   <properties>
     <revision>10.18.0</revision>
     <changelist>-SNAPSHOT</changelist>
-    <analysis-model.version>10.18.0</analysis-model.version>
+    <analysis-model.version>10.19.0</analysis-model.version>
   </properties>
 
   <licenses>
