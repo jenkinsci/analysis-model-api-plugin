@@ -19,7 +19,7 @@
   <properties>
     <revision>11.0.0</revision>
     <changelist>-SNAPSHOT</changelist>
-    <analysis-model.version>11.0.0-rc4947.d37dc2873c20</analysis-model.version>
+    <analysis-model.version>11.0.0</analysis-model.version>
   </properties>
 
   <licenses>
