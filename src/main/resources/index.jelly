@@ -2,4 +2,8 @@
 
 <div>
   A library wrapped into a Jenkins plugin to read static analysis reports into a Java object model.
+  This Java object model can read, aggregate, filter, and query static analysis reports. 
+  It is used by Jenkins' warnings plug-in to visualize the warnings of individual builds. 
+  Additionally, this library is used by Jenkins' autograding plugin to grade student software projects 
+  based on a given set of metrics (unit tests, code and mutation coverage, static analysis warnings).
 </div>
