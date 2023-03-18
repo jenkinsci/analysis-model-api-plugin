@@ -12,12 +12,12 @@
   <groupId>io.jenkins.plugins</groupId>
   <packaging>hpi</packaging>
   <name>Analysis Model API Plugin</name>
-  <version>11.0.1</version>
+  <version>${revision}${changelist}</version>
   <description>Static Analysis Model and Parsers API used by the Warnings plugin.</description>
   <url>https://github.com/jenkinsci/analysis-model</url>
 
   <properties>
-    <revision>11.0.1</revision>
+    <revision>11.1.0</revision>
     <changelist>-SNAPSHOT</changelist>
     <analysis-model.version>11.0.1</analysis-model.version>
   </properties>
@@ -115,7 +115,7 @@
     <connection>scm:git:https://github.com/jenkinsci/${project.artifactId}-plugin.git</connection>
     <developerConnection>scm:git:git@github.com:jenkinsci/${project.artifactId}-plugin.git</developerConnection>
     <url>https://github.com/jenkinsci/${project.artifactId}-plugin</url>
-    <tag>v11.0.1</tag>
+    <tag>${scmTag}</tag>
   </scm>
 
   <repositories>
