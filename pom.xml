@@ -19,7 +19,7 @@
   <properties>
     <changelist>-SNAPSHOT</changelist>
     <analysis-model.version>11.5.1</analysis-model.version>
-    <revision>11.6.0</revision>
+    <revision>11.5.1</revision>
   </properties>
 
   <licenses>
