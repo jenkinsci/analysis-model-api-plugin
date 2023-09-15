@@ -18,7 +18,7 @@
 
   <properties>
     <changelist>-SNAPSHOT</changelist>
-    <analysis-model.version>11.7.0</analysis-model.version>
+    <analysis-model.version>11.7.1</analysis-model.version>
     <revision>11.8.0</revision>
   </properties>
 
