@@ -20,7 +20,7 @@
     <revision>11.15.0</revision>
     <changelist>-SNAPSHOT</changelist>
 
-    <analysis-model.version>11.14.0</analysis-model.version>
+    <analysis-model.version>11.15.0</analysis-model.version>
   </properties>
 
   <licenses>
