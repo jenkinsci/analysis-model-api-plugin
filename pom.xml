@@ -100,6 +100,14 @@
           <groupId>org.apache.ant</groupId>
           <artifactId>ant</artifactId>
         </exclusion>
+        <exclusion>
+          <groupId>com.google.code.gson</groupId>
+          <artifactId>gson</artifactId>
+        </exclusion>
+        <exclusion>
+          <artifactId>json</artifactId>
+          <groupId>org.json</groupId>
+        </exclusion>
       </exclusions>
     </dependency>
     <dependency>
@@ -109,6 +117,14 @@
     <dependency>
       <groupId>io.jenkins.plugins</groupId>
       <artifactId>jaxb</artifactId>
+    </dependency>
+    <dependency>
+      <groupId>io.jenkins.plugins</groupId>
+      <artifactId>json-api</artifactId>
+    </dependency>
+    <dependency>
+      <groupId>io.jenkins.plugins</groupId>
+      <artifactId>gson-api</artifactId>
     </dependency>
   </dependencies>
 
