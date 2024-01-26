@@ -108,6 +108,10 @@
           <artifactId>json</artifactId>
           <groupId>org.json</groupId>
         </exclusion>
+        <exclusion>
+          <artifactId>json-smart</artifactId>
+          <groupId>net.minidev</groupId>
+        </exclusion>
       </exclusions>
     </dependency>
     <dependency>
@@ -121,6 +125,10 @@
     <dependency>
       <groupId>io.jenkins.plugins</groupId>
       <artifactId>json-api</artifactId>
+    </dependency>
+    <dependency>
+      <groupId>io.jenkins.plugins</groupId>
+      <artifactId>json-path-api</artifactId>
     </dependency>
     <dependency>
       <groupId>io.jenkins.plugins</groupId>
