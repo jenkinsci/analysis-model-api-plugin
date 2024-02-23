@@ -17,10 +17,10 @@
   <url>https://github.com/jenkinsci/analysis-model</url>
 
   <properties>
-    <revision>12.0.0</revision>
+    <revision>12.1.0</revision>
     <changelist>-SNAPSHOT</changelist>
 
-    <analysis-model.version>12.0.0</analysis-model.version>
+    <analysis-model.version>12.1.0</analysis-model.version>
   </properties>
 
   <licenses>
