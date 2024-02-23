@@ -2,6 +2,6 @@ edu.hm.hafner.analysis.Severity
 edu.hm.hafner.analysis.Report
 edu.hm.hafner.analysis.Issue
 edu.hm.hafner.analysis.DuplicationGroup
-edu.hm.hafner.analysis.LineRange
-edu.hm.hafner.analysis.LineRangeList
 edu.hm.hafner.analysis.RevApiInfoExtension
+edu.hm.hafner.util.LineRange
+edu.hm.hafner.util.LineRangeList

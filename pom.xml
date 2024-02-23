@@ -4,7 +4,7 @@
   <parent>
     <groupId>org.jvnet.hudson.plugins</groupId>
     <artifactId>analysis-pom</artifactId>
-    <version>6.17.0</version>
+    <version>7.2.0</version>
     <relativePath />
   </parent>
 
@@ -17,10 +17,10 @@
   <url>https://github.com/jenkinsci/analysis-model</url>
 
   <properties>
-    <revision>11.16.0</revision>
+    <revision>12.0.0</revision>
     <changelist>-SNAPSHOT</changelist>
 
-    <analysis-model.version>11.15.0</analysis-model.version>
+    <analysis-model.version>12.0.0</analysis-model.version>
   </properties>
 
   <licenses>
@@ -100,6 +100,18 @@
           <groupId>org.apache.ant</groupId>
           <artifactId>ant</artifactId>
         </exclusion>
+        <exclusion>
+          <groupId>com.google.code.gson</groupId>
+          <artifactId>gson</artifactId>
+        </exclusion>
+        <exclusion>
+          <artifactId>json</artifactId>
+          <groupId>org.json</groupId>
+        </exclusion>
+        <exclusion>
+          <artifactId>json-smart</artifactId>
+          <groupId>net.minidev</groupId>
+        </exclusion>
       </exclusions>
     </dependency>
     <dependency>
@@ -109,6 +121,18 @@
     <dependency>
       <groupId>io.jenkins.plugins</groupId>
       <artifactId>jaxb</artifactId>
+    </dependency>
+    <dependency>
+      <groupId>io.jenkins.plugins</groupId>
+      <artifactId>json-api</artifactId>
+    </dependency>
+    <dependency>
+      <groupId>io.jenkins.plugins</groupId>
+      <artifactId>json-path-api</artifactId>
+    </dependency>
+    <dependency>
+      <groupId>io.jenkins.plugins</groupId>
+      <artifactId>gson-api</artifactId>
     </dependency>
   </dependencies>
 
