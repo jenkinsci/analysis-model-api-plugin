@@ -17,10 +17,10 @@
   <url>https://github.com/jenkinsci/analysis-model</url>
 
   <properties>
-    <revision>12.2.0</revision>
+    <revision>12.3.0</revision>
     <changelist>-SNAPSHOT</changelist>
 
-    <analysis-model.version>12.1.0</analysis-model.version>
+    <analysis-model.version>12.3.0</analysis-model.version>
   </properties>
 
   <licenses>
@@ -161,14 +161,6 @@
     <repository>
       <id>incrementals.jenkins-ci.org</id>
       <url>https://repo.jenkins-ci.org/incrementals/</url>
-    </repository>
-    <repository>
-      <snapshots>
-        <enabled>false</enabled>
-      </snapshots>
-      <id>central</id>
-      <name>Maven Central Repository</name>
-      <url>https://repo1.maven.org/maven2</url>
     </repository>
   </repositories>
 
