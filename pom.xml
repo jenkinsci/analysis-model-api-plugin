@@ -12,12 +12,12 @@
   <groupId>io.jenkins.plugins</groupId>
   <packaging>hpi</packaging>
   <name>Analysis Model API Plugin</name>
-  <version>12.4.0</version>
+  <version>${revision}${changelist}</version>
   <description>Static Analysis Model and Parsers API used by the Warnings plugin.</description>
   <url>https://github.com/jenkinsci/analysis-model</url>
 
   <properties>
-    <revision>12.4.0</revision>
+    <revision>12.6.0</revision>
     <changelist>-SNAPSHOT</changelist>
 
     <analysis-model.version>12.4.0</analysis-model.version>
