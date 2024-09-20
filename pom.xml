@@ -17,7 +17,7 @@
   <url>https://github.com/jenkinsci/analysis-model</url>
 
   <properties>
-    <revision>12.6.0</revision>
+    <revision>12.7.0</revision>
     <changelist>-SNAPSHOT</changelist>
 
     <analysis-model.version>12.5.0</analysis-model.version>
