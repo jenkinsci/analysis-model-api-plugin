@@ -1,3 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
   <modelVersion>4.0.0</modelVersion>
 
@@ -7,21 +8,14 @@
     <version>9.0.0</version>
     <relativePath />
   </parent>
+  <groupId>io.jenkins.plugins</groupId>
 
   <artifactId>analysis-model-api</artifactId>
-  <groupId>io.jenkins.plugins</groupId>
+  <version>${revision}${changelist}</version>
   <packaging>hpi</packaging>
   <name>Analysis Model API Plugin</name>
-  <version>${revision}${changelist}</version>
   <description>Static Analysis Model and Parsers API used by the Warnings plugin.</description>
   <url>https://github.com/jenkinsci/analysis-model</url>
-
-  <properties>
-    <revision>12.8.0</revision>
-    <changelist>-SNAPSHOT</changelist>
-
-    <analysis-model.version>12.5.0</analysis-model.version>
-  </properties>
 
   <licenses>
     <license>
@@ -32,11 +26,25 @@
 
   <developers>
     <developer>
-      <name>Ullrich Hafner</name>
       <id>uhafner</id>
+      <name>Ullrich Hafner</name>
       <email>ullrich.hafner@gmail.com</email>
     </developer>
   </developers>
+
+  <scm>
+    <connection>scm:git:https://github.com/jenkinsci/${project.artifactId}-plugin.git</connection>
+    <developerConnection>scm:git:git@github.com:jenkinsci/${project.artifactId}-plugin.git</developerConnection>
+    <tag>${scmTag}</tag>
+    <url>https://github.com/jenkinsci/${project.artifactId}-plugin</url>
+  </scm>
+
+  <properties>
+    <revision>12.8.0</revision>
+    <changelist>-SNAPSHOT</changelist>
+
+    <analysis-model.version>12.5.0</analysis-model.version>
+  </properties>
 
   <dependencyManagement>
     <dependencies>
@@ -125,8 +133,8 @@
           <artifactId>jaxen</artifactId>
         </exclusion>
         <exclusion>
-          <artifactId>*</artifactId>
           <groupId>org.ow2.asm</groupId>
+          <artifactId>*</artifactId>
         </exclusion>
         <exclusion>
           <groupId>com.j2html</groupId>
@@ -149,16 +157,16 @@
           <artifactId>gson</artifactId>
         </exclusion>
         <exclusion>
-          <artifactId>json</artifactId>
           <groupId>org.json</groupId>
+          <artifactId>json</artifactId>
         </exclusion>
         <exclusion>
-          <artifactId>json-smart</artifactId>
           <groupId>net.minidev</groupId>
+          <artifactId>json-smart</artifactId>
         </exclusion>
         <exclusion>
-          <artifactId>httpclient5</artifactId>
           <groupId>org.apache.httpcomponents.client5</groupId>
+          <artifactId>httpclient5</artifactId>
         </exclusion>
         <exclusion>
           <groupId>org.apache.logging.log4j</groupId>
@@ -216,28 +224,21 @@
     </dependency>
   </dependencies>
 
-  <scm>
-    <connection>scm:git:https://github.com/jenkinsci/${project.artifactId}-plugin.git</connection>
-    <developerConnection>scm:git:git@github.com:jenkinsci/${project.artifactId}-plugin.git</developerConnection>
-    <url>https://github.com/jenkinsci/${project.artifactId}-plugin</url>
-    <tag>${scmTag}</tag>
-  </scm>
-
   <repositories>
     <repository>
-      <id>central</id>
-      <name>Central Repository</name>
       <snapshots>
         <enabled>false</enabled>
       </snapshots>
+      <id>central</id>
+      <name>Central Repository</name>
       <url>https://repo.maven.apache.org/maven2</url>
     </repository>
     <repository>
-      <id>repo.jenkins-ci.org</id>
-      <url>https://repo.jenkins-ci.org/public/</url>
       <snapshots>
         <enabled>false</enabled>
       </snapshots>
+      <id>repo.jenkins-ci.org</id>
+      <url>https://repo.jenkins-ci.org/public/</url>
     </repository>
     <repository>
       <id>incrementals.jenkins-ci.org</id>
