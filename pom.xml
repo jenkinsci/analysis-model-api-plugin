@@ -40,10 +40,10 @@
   </scm>
 
   <properties>
-    <revision>12.10.0</revision>
+    <revision>12.9.1</revision>
     <changelist>-SNAPSHOT</changelist>
 
-    <analysis-model.version>12.9.0</analysis-model.version>
+    <analysis-model.version>12.9.1</analysis-model.version>
   </properties>
 
   <dependencyManagement>
