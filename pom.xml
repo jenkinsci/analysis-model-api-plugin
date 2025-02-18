@@ -68,6 +68,12 @@
 
   <dependencies>
     <dependency>
+      <groupId>org.jenkins-ci.plugins</groupId>
+      <artifactId>jsoup</artifactId>
+      <!-- TODO: remove the version when a matching BOM is available -->
+      <version>1.18.3-30.v952e9442d416</version>
+    </dependency>
+    <dependency>
       <groupId>io.jenkins.plugins</groupId>
       <artifactId>apache-httpcomponents-client-5-api</artifactId>
     </dependency>
@@ -102,6 +108,10 @@
       <artifactId>analysis-model</artifactId>
       <version>${analysis-model.version}</version>
       <exclusions>
+        <exclusion>
+          <groupId>org.jsoup</groupId>
+          <artifactId>jsoup</artifactId>
+        </exclusion>
         <exclusion>
           <groupId>edu.hm.hafner</groupId>
           <artifactId>codingstyle</artifactId>
