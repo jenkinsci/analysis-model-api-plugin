@@ -43,7 +43,7 @@
     <revision>13.1.0</revision>
     <changelist>-SNAPSHOT</changelist>
 
-    <analysis-model.version>13.0.0</analysis-model.version>
+    <analysis-model.version>13.1.0</analysis-model.version>
   </properties>
 
   <dependencyManagement>
