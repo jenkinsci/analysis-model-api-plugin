@@ -15,7 +15,7 @@
   <packaging>hpi</packaging>
   <name>Analysis Model API Plugin</name>
   <description>Static Analysis Model and Parsers API used by the Warnings plugin.</description>
-  <url>https://github.com/jenkinsci/analysis-model</url>
+  <url>https://github.com/jenkinsci/analysis-model-api-plugin</url>
 
   <licenses>
     <license>
