@@ -40,7 +40,7 @@
   </scm>
 
   <properties>
-    <revision>13.3.0</revision>
+    <revision>13.5.0</revision>
     <changelist>-SNAPSHOT</changelist>
 
     <analysis-model.version>13.5.0</analysis-model.version>
