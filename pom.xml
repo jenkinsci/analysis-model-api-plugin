@@ -11,7 +11,7 @@
   <groupId>io.jenkins.plugins</groupId>
 
   <artifactId>analysis-model-api</artifactId>
-  <version>${revision}${changelist}</version>
+  <version>${revision}-${changelist}</version>
   <packaging>hpi</packaging>
   <name>Analysis Model API Plugin</name>
   <description>Static Analysis Model and Parsers API used by the Warnings plugin.</description>
@@ -41,7 +41,7 @@
 
   <properties>
     <revision>13.8.0</revision>
-    <changelist>-SNAPSHOT</changelist>
+    <changelist>999999-SNAPSHOT</changelist>
 
     <analysis-model.version>13.7.0</analysis-model.version>
   </properties>
