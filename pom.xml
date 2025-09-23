@@ -5,7 +5,7 @@
   <parent>
     <groupId>org.jvnet.hudson.plugins</groupId>
     <artifactId>analysis-pom</artifactId>
-    <version>10.14.0</version>
+    <version>10.2792.v9dd09fb_3c255</version>
     <relativePath />
   </parent>
   <groupId>io.jenkins.plugins</groupId>
@@ -40,10 +40,10 @@
   </scm>
 
   <properties>
-    <revision>13.8.0</revision>
+    <revision>13.9.0</revision>
     <changelist>999999-SNAPSHOT</changelist>
 
-    <analysis-model.version>13.8.0</analysis-model.version>
+    <analysis-model.version>13.9.0</analysis-model.version>
   </properties>
 
   <dependencyManagement>
