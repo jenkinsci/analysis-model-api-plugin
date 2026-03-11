@@ -40,7 +40,7 @@
   </scm>
 
   <properties>
-    <analysis-model.version>14.0.0</analysis-model.version>
+    <analysis-model.version>13.21.0</analysis-model.version>
     <hpi.bundledArtifacts>Saxon-HE,analysis-model,bcel,cglib,checker-qual,commons-digester3,log4j-api,nice-xml-messages,pcollections,pmd-core,pmd-java,spotbugs,violations-lib,xercesImpl,xml-apis,xmlresolver,xmlresolver</hpi.bundledArtifacts>
     <hpi.strictBundledArtifacts>true</hpi.strictBundledArtifacts>
 
