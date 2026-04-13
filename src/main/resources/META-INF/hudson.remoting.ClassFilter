@@ -3,5 +3,6 @@ edu.hm.hafner.analysis.Report
 edu.hm.hafner.analysis.Issue
 edu.hm.hafner.analysis.DuplicationGroup
 edu.hm.hafner.analysis.RevApiInfoExtension
+edu.hm.hafner.analysis.Location
 edu.hm.hafner.util.LineRange
 edu.hm.hafner.util.LineRangeList
