@@ -31,6 +31,3 @@
 - name: github_actions
   description: Pull requests that update Github Actions workflows
   color: 909090
-- name: hacktoberfest
-  description: Pull requests that participate in Hacktoberfest
-  color: 7057ff
