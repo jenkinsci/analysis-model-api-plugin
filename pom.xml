@@ -40,7 +40,7 @@
   </scm>
 
   <properties>
-    <analysis-model.version>14.16.0</analysis-model.version>
+    <analysis-model.version>14.17.0</analysis-model.version>
     <hpi.bundledArtifacts>Saxon-HE,analysis-model,bcel,cglib,checker-qual,commons-digester3,log4j-api,nice-xml-messages,pcollections,pmd-core,pmd-java,spotbugs,violations-lib,xercesImpl,xml-apis,xmlresolver,xmlresolver</hpi.bundledArtifacts>
     <hpi.strictBundledArtifacts>true</hpi.strictBundledArtifacts>
 
@@ -48,32 +48,7 @@
     <changelist>999999-SNAPSHOT</changelist>
   </properties>
 
-  <dependencyManagement>
-    <dependencies>
-      <dependency>
-        <groupId>org.apache.bcel</groupId>
-        <artifactId>bcel</artifactId>
-        <version>6.12.0</version>
-      </dependency>
-      <dependency>
-        <groupId>org.slf4j</groupId>
-        <artifactId>slf4j-api</artifactId>
-        <version>2.0.19</version>
-      </dependency>
-      <dependency>
-        <groupId>net.sf.saxon</groupId>
-        <artifactId>Saxon-HE</artifactId>
-        <version>12.10</version>
-      </dependency>
-      <dependency>
-        <groupId>net.sourceforge.pmd</groupId>
-        <artifactId>pmd-core</artifactId>
-        <version>7.26.0</version>
-      </dependency>
-    </dependencies>
-  </dependencyManagement>
-
-  <dependencies>
+ <dependencies>
     <dependency>
       <groupId>org.jenkins-ci.plugins</groupId>
       <artifactId>jsoup</artifactId>
